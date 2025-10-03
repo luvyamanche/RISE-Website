@@ -144,7 +144,7 @@ const Programs = () => {
 
           <div className="relative">
             <img
-              src="/public/packages.jpeg"
+              src="/packages.jpeg"
               alt="Students working with STEAM kits"
               className="w-full rounded-2xl shadow-xl"
             />
