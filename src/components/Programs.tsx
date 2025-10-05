@@ -53,11 +53,9 @@ const Programs = () => {
 
   const countries = [
     'India',
-    'Ivory Coast',
     'Senegal',
     'Nigeria',
-    'Sierra Leone',
-    'Guatemala',
+    'Sierra Leone'
   ];
 
   return (

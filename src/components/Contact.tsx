@@ -116,7 +116,7 @@ const Contact = () => {
         <div className="mt-16 pt-8 border-t border-gray-700 text-center">
           <div className="flex items-center justify-center space-x-2 text-gray-400 mb-4">
             <MapPin className="h-5 w-5" />
-            <span>Serving communities in 6 countries worldwide</span>
+            <span>Serving communities in countries worldwide</span>
           </div>
           <p className="text-gray-400">
             © 2025 RISE Foundation. All rights reserved. | Rural Initiative for
