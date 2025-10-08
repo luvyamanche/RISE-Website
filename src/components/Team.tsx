@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       name: 'Luvyakrish Manche',
-      role: 'Chief Operation Officer',
+      role: 'Chief Operations Officer',
       image: '/luvya.jpeg',
       description:
         'A strategic thinker with a passion for entrepreneurship, he focuses on building partnerships and driving sustainable growth for RISE. He brings strong skills in business development and project management, helping streamline operations while ensuring maximum community impact.',
