@@ -14,7 +14,7 @@ const Team = () => {
     },
     {
       name: 'Mithun Chigurupati',
-      role: 'President of Operations',
+      role: 'President of Design',
       image: '/mithun.png',
       description:
         "He designed the foundation's hands-on STEAM kits, including projects like water purification systems and pH testing experiments. His focus on real-world applications makes complex concepts accessible, empowering students to solve everyday problems through creativity and innovation.",
@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       name: 'Luvyakrish Manche',
-      role: 'Chief Financial Officer',
+      role: 'Chief Operation Officer',
       image: '/luvya.jpeg',
       description:
         'A strategic thinker with a passion for entrepreneurship, he focuses on building partnerships and driving sustainable growth for RISE. He brings strong skills in business development and project management, helping streamline operations while ensuring maximum community impact.',
