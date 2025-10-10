@@ -49,7 +49,7 @@ const GetInvolved = () => {
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 justify-center">
+        <div className="flex flex-wrap justify-center gap-8 mb-16">
           {ways.map((way, index) => (
             <div
               key={index}
