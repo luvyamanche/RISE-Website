@@ -32,6 +32,7 @@ const GetInvolved = () => {
   return (
     <section id="get-involved" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
         <div className="text-center mb-16">
           <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
             <Heart className="h-8 w-8 text-red-600" />
@@ -47,7 +48,8 @@ const GetInvolved = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        {/* Cards */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 justify-center">
           {ways.map((way, index) => (
             <div
               key={index}
@@ -64,16 +66,19 @@ const GetInvolved = () => {
               <p className="text-gray-600 leading-relaxed mb-6 text-sm">
                 {way.description}
               </p>
-              <button
-                className={`bg-${way.color}-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-${way.color}-700 transition-colors text-sm`}
+              <a
                 href={way.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`bg-${way.color}-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-${way.color}-700 transition-colors text-sm inline-block`}
               >
                 {way.action}
-              </button>
+              </a>
             </div>
           ))}
         </div>
 
+        {/* Call to Action */}
         <div className="bg-gradient-to-r from-blue-600 via-teal-600 to-blue-600 rounded-2xl p-8 md:p-12 text-white text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-6">
             Ready to Make a Difference?
@@ -85,12 +90,18 @@ const GetInvolved = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors flex-1">
+            <a
+              href="#get-involved"
+              className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors flex-1 text-center"
+            >
               Get Started Today
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex-1">
+            </a>
+            <a
+              href="#learn-more"
+              className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex-1 text-center"
+            >
               Learn More
-            </button>
+            </a>
           </div>
         </div>
       </div>
