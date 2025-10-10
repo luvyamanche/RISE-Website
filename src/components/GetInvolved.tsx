@@ -16,14 +16,7 @@ const GetInvolved = () => {
         'Join our team of passionate educators and community leaders making a difference worldwide.',
       color: 'blue',
       action: 'Explore Opportunities',
-    },
-    {
-      icon: <DollarSign className="h-8 w-8" />,
-      title: 'Donate',
-      description:
-        'Support our mission by contributing resources to help us reach more communities.',
-      color: 'teal',
-      action: 'Make a Donation',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSf4ni3ZPamtm7uUEnmhbE92bvd-VXPRy2erQENyaHkiK39rIg/viewform?usp=sharing&ouid=113887974480380235971',
     },
     {
       icon: <Users className="h-8 w-8" />,
@@ -32,14 +25,7 @@ const GetInvolved = () => {
         'Collaborate with us to bring STEAM education to your community or organization.',
       color: 'orange',
       action: 'Become a Partner',
-    },
-    {
-      icon: <Mail className="h-8 w-8" />,
-      title: 'Stay Connected',
-      description:
-        'Subscribe to our newsletter for updates on our programs and impact stories.',
-      color: 'blue',
-      action: 'Subscribe Now',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe9ROApAOHpQNzse7Mcj-3KRXdwXXUlCE9aryHaTbkjhfAUyQ/viewform?usp=header',
     },
   ];
 
@@ -80,6 +66,7 @@ const GetInvolved = () => {
               </p>
               <button
                 className={`bg-${way.color}-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-${way.color}-700 transition-colors text-sm`}
+                href={way.link}
               >
                 {way.action}
               </button>
