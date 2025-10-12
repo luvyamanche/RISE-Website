@@ -66,7 +66,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://aalambanafoundation.org/assets/images/slideshow/slider1.jpg"
+                src="/pics1.png"
                 alt="Students engaged in STEAM education activities"
                 className="w-full h-full object-cover"
               />
