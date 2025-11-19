@@ -86,8 +86,7 @@ const About = () => {
               Our Origin Story
             </h3>
             <p className="text-blue-100 leading-relaxed text-lg mb-4">
-              The Rise Foundation began in 2022 during a volunteer trip to Ivory
-              Coast. Local schools lacked textbooks, lab supplies, and
+              The Rise Foundation began in 2022 during a  trip to India. Local schools lacked textbooks, lab supplies, and
               electricity. Students wanted to learn but had no tools. Seeing
               these conditions inspired the founders to act.
             </p>
