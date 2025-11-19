@@ -36,8 +36,8 @@ const Programs = () => {
   const kits = [
     {
       icon: <Lightbulb className="h-6 w-6" />,
-      title: 'Solar Light Kits',
-      description: 'For homes without electricity',
+      title: 'Toy Brick and Block-Building Sets',
+      description: 'For younger children to learn',
     },
     {
       icon: <Droplets className="h-6 w-6" />,

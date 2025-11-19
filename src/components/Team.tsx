@@ -13,15 +13,6 @@ const Team = () => {
       email: 'aravkewalia@gmail.com',
     },
     {
-      name: 'Mithun Chigurupati',
-      role: 'President of Design',
-      image: '/mithun.png',
-      description:
-        "He designed the foundation's hands-on STEAM kits, including projects like water purification systems and pH testing experiments. His focus on real-world applications makes complex concepts accessible, empowering students to solve everyday problems through creativity and innovation.",
-      linkedin: 'https://www.linkedin.com/in/mithun-chigurupati-675016366/',
-      email: 'mchigu09@gmail.com',
-    },
-    {
       name: 'Luvyakrish Manche',
       role: 'Chief Operations Officer',
       image: '/luvya.jpeg',
