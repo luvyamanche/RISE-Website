@@ -20,7 +20,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
           <div>
             <img
-              src="/pic2.png"
+              src="/finalpic.png"
               alt="Children learning with STEAM kits"
               className="w-full rounded-2xl shadow-xl"
             />

@@ -4,8 +4,8 @@ import { Star, Quote } from 'lucide-react';
 const Impact = () => {
   const testimonials = [
     {
-      name: "Mrs. Fatmata O'Connor",
-      role: "Community Leader",
+      name: "Lycée Jean Mermoz",
+      role: "Dakar, Senegal",
       content: "RISE has truly made a difference in our community! The STEAM kits provided were engaging and educational, sparking a love for learning among the children. Their commitment to addressing real-world issues is inspiring.",
       rating: 5
     },
