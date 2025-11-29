@@ -55,7 +55,9 @@ const Programs = () => {
     'India',
     'Senegal',
     'Ivory Coast',
-    'Sierra Leone'
+    'Sierra Leone',
+    'Guatemala',
+    'United States'
   ];
 
   return (

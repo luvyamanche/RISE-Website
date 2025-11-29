@@ -20,7 +20,7 @@ const Impact = () => {
   const stats = [
     { number: "500+", label: "Students Reached", color: "blue" },
     { number: "20+", label: "Communities Served", color: "teal" },
-    { number: "4", label: "Countries", color: "orange" },
+    { number: "6", label: "Countries", color: "orange" },
     { number: "350+", label: "STEAM Kits Distributed", color: "green" }
   ];
 

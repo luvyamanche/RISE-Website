@@ -49,7 +49,7 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">4</div>
+                <div className="text-2xl font-bold text-blue-600">6</div>
                 <div className="text-sm text-gray-600">Countries</div>
               </div>
               <div className="text-center">
